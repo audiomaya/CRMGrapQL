@@ -1,6 +1,6 @@
 {
   "name": "crmgrapqltsool",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Aplición para Grupo OORCA",
   "main": "index.js",
   "scripts": {
