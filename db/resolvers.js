@@ -86,7 +86,7 @@ const resolvers = {
 			try {
 				const pedidos = await Pedido.find({ vendedor: ctx.usuario.id }).populate('cliente')
 
-				console.log(pedidos)
+				//console.log(pedidos)
 				return pedidos
 			} catch {
 				console.log(error)
